@@ -18,9 +18,10 @@
          Username: <input type="text" name="username" /><br/>
          Password: <input type="password" name="password" /><br/>
          <input type="submit" />
-         </form></center><br/><br/>
-      
+         </form></center>
       </table>
+
+      <p align="center">Not a member? <a href="signup.php">Create Account</a></p>
    </body>
 
 </html>

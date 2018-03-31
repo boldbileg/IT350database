@@ -10,7 +10,7 @@ if($_SESSION["loggedIn"] != TRUE)
 }
 
 $uname = $_SESSION["username"];
-$qry = mysqli_query($conn, "SELECT Username, Email FROM Users WHERE Username='$uname'");
+$qry = mysqli_query($conn, "SELECT Username FROM Users WHERE Username='$uname'");
 $row = mysqli_fetch_array($qry);
 ?>
 

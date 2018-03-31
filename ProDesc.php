@@ -10,7 +10,7 @@ if($_SESSION["loggedIn"] != TRUE)
 }
 
 $uname = $_SESSION["username"];
-$qry = mysqli_query($conn, "SELECT Username, Email FROM Users WHERE Username='$uname'");
+$qry = mysqli_query($conn, "SELECT Username FROM Users WHERE Username='$uname'");
 $row = mysqli_fetch_array($qry);
 ?>
 
@@ -81,12 +81,13 @@ $row = mysqli_fetch_array($qry);
                   ?>
                </table><br/><br/>
 
-               <form action="prodesc.php" method="post">
-      				Product Name: <input type="text" name="proName" /><br/>
-      				Date: <input type="date" data-date-inline-picker="true" name="descDate"/><br/>
-      				Description: <br/><textarea name="descTxt" cols="40" rows="10"></textarea><br/>
-      				<input type="submit" />
-   				</form><br/><br/>
+              <form action="prodesc.php" method="post">
+        				Product Name: <input type="text" name="proName" /><br/>
+        				Date: <input type="date" data-date-inline-picker="true" name="descDate"/><br/>
+        				Description: <br/><textarea name="descTxt" cols="40" rows="10"></textarea><br/>
+                Image File Name: <input type="file" name="imgName" accept="image/*"><br/>
+        				<input type="submit" />
+       				</form><br/><br/>
             </td>
          </tr>
       </table>

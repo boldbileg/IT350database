@@ -16,13 +16,21 @@
 		}
 		else
 		{
-			if($count == 1)
+			if($count == 1 && $uname == "admin")
 			{
 				session_start();
 				$_SESSION["loggedIn"] = TRUE;
 				$_SESSION["username"] = $uname;
-				mysqli_query($con, "UPDATE Users SET Logged_in=1 WHERE Username = '$uname'");
+				mysqli_query($conn, "UPDATE Users SET Logged_in=1 WHERE Username = '$uname'");
 				header("Location:index.php");
+			}
+			else if($count == 1)
+			{
+				session_start();
+				$_SESSION["loggedIn"] = TRUE;
+				$_SESSION["username"] = $uname;
+				mysqli_query($conn, "UPDATE Users SET Logged_in=1 WHERE Username = '$uname'");
+				header("Location:user.php");
 			}
 			else
 			{

@@ -1,0 +1,27 @@
+.checkout{
+   display: inline-block;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: bold;
+   color: #3D96E3;
+   font-family: arial, sans-serif;
+   background-color: #bbb;
+   border: 1px solid #555;
+   padding: 5px 8px;
+   border-radius: 5px;
+   margin: 14px;
+   font-size: .7em;
+   letter-spacing: -.7px;
+   text-shadow: 0px .7px 0px #fafafa;
+   
+
+   background: #eaeaea;
+  background: -moz-linear-gradient(top,  #eaeaea 0%, #e0e0e0 50%, #d8d8d8 51%, #bcbcbc 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eaeaea), color-stop(50%,#e0e0e0), color-stop(51%,#d8d8d8), color-stop(100%,#bcbcbc));
+  background: -webkit-linear-gradient(top,  #eaeaea 0%,#e0e0e0 50%,#d8d8d8 51%,#bcbcbc 100%);
+  background: -o-linear-gradient(top,  #eaeaea 0%,#e0e0e0 50%,#d8d8d8 51%,#bcbcbc 100%);
+  background: -ms-linear-gradient(top,  #eaeaea 0%,#e0e0e0 50%,#d8d8d8 51%,#bcbcbc 100%);
+  background: linear-gradient(to bottom,  #eaeaea 0%,#e0e0e0 50%,#d8d8d8 51%,#bcbcbc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#bcbcbc',GradientType=0 );
+  text-decoration: none !important;
+}
