@@ -1,0 +1,1 @@
+ps aux | grep elasticsearch | cut -c1-100

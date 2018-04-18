@@ -1,0 +1,1 @@
+tail -10 /var/log/apache2/error.log

@@ -1,0 +1,1 @@
+tail -10 /var/log/mysql/error.log

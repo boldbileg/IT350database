@@ -1,0 +1,662 @@
+    1  gsettings set com.canonical.Unity.Launcher launcher-position Bottom
+    2  sudo apt-get install chromium-browser
+    3  ls
+    4  sudo apt-get install tasksel
+    5  sudo tasksel
+    6  sudo apt-get install phpmyadmin
+    7  sudo apt-get install mysql-client
+    8  sudo gedit /etc/apache2/sites-available/000-default.conf
+    9  ssh webadmin@192.168.12.132
+   10  cd /var
+   11  ;s
+   12  ls
+   13  chmod 755 www
+   14  sudo chmod 755 www
+   15  man chown
+   16  sudo chown n8bothwe www/
+   17  sudo chmod 755 www
+   18  sudo chown -R n8bothwe www/
+   19  sudo chmod -R 755 www
+   20  sudo apt-get install sublime-text
+   21  sudo apt-get install sublime
+   22  sudo add-apt-repository ppa:webupd8team/sublime-text-3
+   23  sudo add-apt-repository -y ppa:webupd8team/sublime-text-2
+   24  sudo apt-get update
+   25  sudo apt-get install sublime-text
+   26  cd ..
+   27  ls
+   28  cd ~
+   29  ls
+   30  cd Downloads/
+   31  ls
+   32  linux> gcc anyoddone.c -o anyoddone
+   33  gcc anyoddone.c -o anyoddone
+   34  ./anyoddone
+   35  gcc anyoddone.c -o anyoddone
+   36  ./anyoddone
+   37  gcc anyoddone.c -o anyoddone
+   38  ./anyoddone
+   39  gcc anyoddone.c -o anyoddone
+   40  ./anyoddone
+   41  gcc anyoddone.c -o anyoddone
+   42  ./anyoddone
+   43  gcc anyoddone.c -o anyoddone
+   44  ./anyoddone
+   45  gcc anyoddone.c -o anyoddone
+   46  ./anyoddone
+   47  gcc anyoddone.c -o anyoddone
+   48  ./anyoddone
+   49  gcc anyoddone.c -o anyoddone
+   50  ./anyoddone
+   51  clear
+   52  gcc anyoddone.c -o anyoddone
+   53  clear
+   54  gcc anyoddone.c -o anyoddone
+   55  ./anyoddone
+   56  ls
+   57  cd Pictures/
+   58  ls
+   59  chmod 777 Screenshot\ from\ 2017-02-06\ 11-06-13.png 
+   60  sudo add-apt-repository ppa:pinta-maintainers/pinta-stable
+   61  sudo apt-get update
+   62  sudo apt-get install pinta
+   63  sudo /etc/php/7.0/apache2/php.ini
+   64  sudo vim /etc/php/7.0/apache2/php.ini
+   65  sudo open /etc/php/7.0/apache2/php.ini
+   66  sudo open -a vim /etc/php/7.0/apache2/php.ini
+   67  sudo open -a "vim" /etc/php/7.0/apache2/php.ini
+   68  sudo open "vim" /etc/php/7.0/apache2/php.ini
+   69  sudo open /etc/php/7.0/apache2/php.ini
+   70  sudo gedit /etc/php/7.0/apache2/php.ini 
+   71  sudo ubuntu restart apache2
+   72  sudo restart apache2
+   73  sudo service apache2 restart
+   74  cd /etc/apache2
+   75  chmod -R 755 /sites-available/
+   76  ls
+   77  sudo chmod -R 755 sites-available/
+   78  ls -l
+   79  sudo chmod -R 744 sites-available/
+   80  ls -l
+   81  cd /etc/apache2
+   82  ls -l
+   83  cd sites-available/
+   84  sudo cd sites-available/
+   85  sudo chmod -R 777 sites-available/
+   86  ls -l
+   87  cd sites-available/
+   88  ls
+   89  vim 000-default.conf 
+   90  sudo apt install vim
+   91  vim 000-default.conf 
+   92  sudo chmod -R 755 sites-available/
+   93  cd ..
+   94  sudo chmod -R 755 sites-available/
+   95  sudo service apache2 restart
+   96  ifconfig
+   97  cd /etc/apache2/mods-available/
+   98  sudo vim dir.conf
+   99  sudo service apache2 restart
+  100  man ssh
+  101  ssh webadmin@192.168.12.132
+  102  sudo ssh webadmin@192.168.12.132
+  103  ls -l
+  104  sudo chmod 777 endorsements.json
+  105  ls -l
+  106  sudo chmod 751 endorsements.json
+  107  ls -l
+  108  ssh webadmin@192.168.12.132
+  109  ssh webadmin@192.168.12.132
+  110  tar -zxvf termsaver-{version}.tar.gz
+  111  cd Downloads
+  112  ls
+  113  tar -zxvf termsaver-0.3.tar.gz
+  114  cd termsaver-.0.3
+  115  ls
+  116  cd termsaver-0.3/
+  117  sudo python setup.py install
+  118  termsaver --help
+  119  termsaver matrix
+  120  termsaver --help
+  121  termsaver jokes4all
+  122  termsaver --help
+  123  termsaver clock
+  124  termsaver --help
+  125  termsaver matrix
+  126  termsaver --help
+  127  termsaver starwars
+  128  sudo apt-get install cmatrix
+  129  cmatrix
+  130  sudo apt-get install screen
+  131  screen
+  132  termsaver --help
+  133  termsaver sysmon
+  134  termsaver --help
+  135  termsaver programmer
+  136  termsaver rfc
+  137  termsaver programmer
+  138  termsaver --help
+  139  termsaver randtxt
+  140  termsaver matrix
+  141  cd /
+  142  ls
+  143  cd node/
+  144  sudo git init
+  145  screen
+  146  vim /home/n8bothwe/.screenrc
+  147  cp ~/.screenrc /etc/.screenrc
+  148  cd /etc/
+  149  vim .screenrc
+  150  bind '"\e[20~":"screen"'
+  151  bind '"\e[20~":"screen\n"'
+  152  screen
+  153  exit
+  154  sudo ntstat
+  155  sudo netstat
+  156  sudo netstat -plnt
+  157  kill 3384
+  158  sudo netstat -plnt
+  159  ls
+  160  sudo vim hosts
+  161  vim hosts
+  162  cd /node/code/
+  163  history
+  164  screen
+  165  node server.js
+  166  ssh webadmin@192.168.12.132
+  167  /node/code
+  168  cd /node/code
+  169  node server.js
+  170  sudo vim /etc/hosts
+  171  sceen
+  172  screen
+  173  node server.js
+  174  vim /etc/mysql/mysql.conf.d/mysqld.cnf
+  175  sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
+  176  sudo /etc/init.d/mysql restart
+  177  cd /node/code/
+  178  node server.js
+  179  ssh webadmin@192.168.12.132
+  180  cd /node/code
+  181  node server.js
+  182  ssh webadmin@192.168.12.132
+  183  cd /node/code
+  184  node server.j
+  185  node server.js
+  186  ssh webadmin@192.168.12.132
+  187  webadmin@192.168.12.132
+  188  ssh webadmin@192.168.12.132
+  189  ./execfile 
+  190  sudo apt-get update
+  191  sudo apt-get -y install numlockx
+  192  sudo sed -i 's|^exit 0.*$|# Numlock enable\n[ -x /usr/bin/numlockx ] \&\& numlockx on\n\nexit 0|' /etc/rc.local
+  193  ./execfile
+  194  gcc -g exp.c -o execfile
+  195  ./execfile
+  196  gcc -g exp.c -o execfile
+  197  ./execfile
+  198  gcc -g exp.c -o execfile
+  199  ./execfile
+  200  gcc -g exp.c -o execfile
+  201  ./execfile
+  202  gcc -g exp.c -o execfile
+  203  ./execfile
+  204  gcc -g exp.c -o execfile
+  205  ./execfile
+  206  gcc -g exp.c -o execfile
+  207  ./execfile
+  208  gcc -g exp.c -o execfile
+  209  ./execfile
+  210  gcc -g exp.c -o execfile
+  211  ./execfile
+  212  gcc -g exp.c -o execfile
+  213  ./execfile
+  214  gcc -g exp.c -o execfile
+  215  ./execfile
+  216  gcc -g exp.c -o execfile
+  217  gcc bubble.c -o bubble.o
+  218  ./bubble.o
+  219  gcc bubble.c -o bubble.o
+  220  ./bubble.o
+  221  gcc bubble.c -o -m32 bubble.s
+  222  gcc -S -o -m64 bubble.exe
+  223  gcc -S -o -m64 bubble.c
+  224  gcc-Og -S bubble.c
+  225  gcc -Og -S bubble.c
+  226  gcc bubble.c -o bubble.o
+  227  gcc -Og -S bubble.c
+  228  ./bubble.o 
+  229  gcc bubble.c -o bubble.o
+  230  ./bubble.o 
+  231  gcc -Og -S bubble.c
+  232  gcc -Og -S -m32 bubble.c
+  233  ls
+  234  cd Downloads/
+  235  cd YAS/
+  236  tar xvf *
+  237  cd tools
+  238  make
+  239  tools/yas bubble.ys 
+  240  cd ..
+  241  tools/yas bubble.ys 
+  242  cd ~
+  243  ls
+  244  gcc -og -S -m32 bubble.c
+  245  ls
+  246  gcc -og -S -m32 bubbleNew.c
+  247  ls
+  248  gcc -og -S -m32 bubbleNew.c
+  249  gcc -Og -S -m32 bubbleNew.c
+  250  gcc -O1 -S -m32 bubbleNew.c
+  251  cd Downloads/
+  252  cd YAS/
+  253  tools/yas bubble.ys 
+  254  gcc-4.4 -m32 -S -Og bubbleNew.c 
+  255  sudo apt install hardening-wrapper
+  256  gcc-4.4 -m32 -S -Og bubbleNew.c 
+  257  sudo apt-get update
+  258  sudo apt-get install g++-4.4
+  259  gcc -m32 -S -Og bubbleNew.c 
+  260  gcc -m32 -c -Og bubbleNew.s
+  261  gcc -m32 -o -Og bubbleNew bubbleNew.o
+  262  gcc -m32 -Og bubbleNew.o
+  263  ls
+  264  objdump bubbleNew.o > dumpy.txt
+  265  objdump -d bubbleNew.o > dumpy.txt
+  266  ./bubbleNew.c
+  267  ./bubbleNew.o
+  268  ls
+  269  ./execfile
+  270  gcc bubble.c -o bubble.o
+  271  ./bubble.o
+  272  sudo apt-get install wireshark
+  273  sudo rm /var/lib/apt/lists/lock 
+  274  sudo rm /var/cache/apt/archives/lock 
+  275  sudo rm /var/lib/dpkg/lock
+  276  sudo apt-get install wireshark
+  277  sudo gpasswd -a $USER wireshark
+  278  service nscd restart
+  279  sudo etc/init.d/nscd restart
+  280  service nscd reload
+  281  traceroute google.com
+  282  sudo apt install traceroute
+  283  traceroute google.com
+  284  traceroute 172.217.6.46
+  285  info proc
+  286  cd Downloads/simpleshell/
+  287  ls
+  288  make simpleshell
+  289  ./simpleshell
+  290  make simpleshell
+  291  ./simpleshell
+  292  make simpleshell
+  293  ./simpleshell
+  294  python -V
+  295  cd Downloads/
+  296  ls
+  297  cd eclipse/
+  298  ls
+  299  sudo eclipse
+  300  eclipse
+  301  sudo apt install eclipse-platform
+  302  sudo eclipse
+  303  python client.py
+  304  python client.py localhost 9020
+  305  ping 192.168.117.133
+  306  cd Downloads/
+  307  python client.py
+  308  python client.py localhost 9020
+  309  python client.py 192.168.117.133 9020
+  310  python client.py localhost 9020
+  311  ruby prj1_test.rb
+  312  sudo apt install ruby
+  313  ruby prj1_test.rb
+  314  ruby prj1_test.rb localhost 9020
+  315  ruby prj1_test.rb localhost 9020
+  316  ls
+  317  ruby prj1_test.rb localhost 9020
+  318  ruby prj1_test.rb localhost
+  319  ruby prj1_test.rb localhost 9020
+  320  python client.py localhost 9020
+  321  ls
+  322  ifconfig
+  323  ping 192.168.101.6
+  324  python client.py 192.168.101.6 9020
+  325  ruby prj1_test.rb
+  326  ruby prj1_test.rb localhost random
+  327  ruby prj1_test.rb localhost evil
+  328  ruby prj1_test.rb localhost normal
+  329  ruby prj1_test.rb localhost evil
+  330  ls
+  331  ls Downloads/
+  332  python server.py
+  333  cd Downloads/
+  334  python server.py
+  335  nmap -sT -O localhost
+  336  sudo apt install nmap
+  337  nmap -sT -O localhost
+  338  sudo nmap -sT -O localhost
+  339  cat /etc/services | grep 9020
+  340  netstat -anp | grep 9020
+  341  netstat -anp -p | grep 9020
+  342  SIGKILL 6601
+  343  ps
+  344  python server.py
+  345  netstat -anp | grep 9020
+  346  ps
+  347  kill SIGNAL 7644
+  348  ps
+  349  python server.py
+  350  ps
+  351  kill SIGNAL 7910
+  352  ps
+  353  kill SIGNAL 7912
+  354  ps
+  355  netstat -anp | grep 9020
+  356  sudo netstat -anp | grep 9020
+  357  netstat -anp | grep 9020
+  358  sudo netstat -anp | grep 9020
+  359  ps
+  360  python server.py
+  361  sudo netstat -anp | grep 9020
+  362  netstat -anp | grep 9020
+  363  ps
+  364  kill SIGNAL 7971
+  365  ps
+  366  python server.py
+  367  ps
+  368  kill SIGNAL 7977
+  369  python server.py
+  370  ps
+  371  python server.py
+  372  netstat -anp | grep 9020
+  373  sudo netstat -anp | grep 9020
+  374  ps
+  375  python server.py
+  376  ps
+  377  python server.py
+  378  sudo netstat -anp | grep 9020
+  379  kill SIGNAL 8188
+  380  python server.py
+  381  ipconfig
+  382  ifconfig
+  383  python server.py
+  384  sudo netstat -anp | grep 9020
+  385  python server.py
+  386  sudo netstat -anp | grep 9020
+  387  python server.py
+  388  sudo netstat -anp | grep 9020
+  389  python server.py
+  390  cd Dow
+  391  cd Downloads/
+  392  ls
+  393  python client.py
+  394  ruby prj1_test.rb localhost normal
+  395  ruby prj1_test.rb localhost evil
+  396  python client.py localhost 9020
+  397  ruby prj1_test.rb localhost normal
+  398  ruby prj1_test.rb localhost evil
+  399  ruby prj1_test.rb localhost normal
+  400  ruby prj1_test.rb localhost evil
+  401  ruby prj1_test.rb localhost normal
+  402  ruby prj1_test.rb localhost evil
+  403  ruby prj1_test.rb localhost random
+  404  _wD    6eO2hfy91    5VVXzeqC\r\n',
+  405   'unknown: B3 PZcbsyjm 9mTf0RlQn yHYgoxs686 h6p\r\n',
+  406   '8Onaqxal_M\r\n: 2oN   a   u0ASe0b   5LCfOF   ACj_wD    6eO2hfy91    5VVXzeqC\r\n',
+  407   'unknown: B3 PZcbsyjm 9mTf0RlQn yHYgoxs686 h6p\r\n',
+  408  cd Downloads/
+  409  ls
+  410  python server.py
+  411  ifconfig
+  412  cd Downloads/
+  413  cd Project2/
+  414  python server.py
+  415  python server.py
+  416  ssh 192.168.50.11 webadmin
+  417  ssh webadmin@192.168.50.11
+  418  mango
+  419  sudo apt-get install -y mongodb-org
+  420  echo "mongodb-org hold" | sudo dpkg --set-selections
+  421  echo "mongodb-org-server hold" | sudo dpkg --set-selections
+  422  echo "mongodb-org-shell hold" | sudo dpkg --set-selections
+  423  echo "mongodb-org-mongos hold" | sudo dpkg --set-selections
+  424  echo "mongodb-org-tools hold" | sudo dpkg --set-selections
+  425  sudo service mongod start
+  426  mango
+  427  mangodb-clients
+  428  sudo mango
+  429  mango
+  430  mongo
+  431  sudo service mongod start
+  432  sudo mongod
+  433  sudo mongo
+  434  sudo apt-get install unity
+  435  exit
+  436  restart
+  437  sudo restart
+  438  sudo apt-get update
+  439  sudo apt-get install --reinstall ubuntu-desktop
+  440  sudo apt-get install unity
+  441  sudo shutdown -r now
+  442  cd /var/log/apache/
+  443  cd /var/log/apache2/
+  444  ls
+  445  cat error.log
+  446  sudo service mongod start
+  447  mongo
+  448  ssh webadmind@192.168.50.11
+  449  sudo ssh webadmind@192.168.50.11
+  450  sudo ssh webadmin@192.168.50.11
+  451  ssh webadmin@192.168.50.11
+  452  ssh -p 22 webadmin@192.168.50.11
+  453  ssh webadmin@192.168.50.11
+  454  ping 172.16.50.67
+  455  cat error.log
+  456  cd /var/www/
+  457  bash status.sh
+  458  cd /var/log/apache2/
+  459  cat error.log
+  460  nano error.log
+  461  sudo nano error.log
+  462  ps aux | grep sql
+  463  ps aux | grep mongo
+  464  sudo service mongod start
+  465  ps aux | grep mongo
+  466  ps aux | grep elasticsearch
+  467  cat error.log
+  468  cd /var/
+  469  chmod 755 www/
+  470  ls -l
+  471  cd /var/log/apache2/
+  472  cat error.log
+  473  cd /var/www
+  474  ls -l
+  475  cd ..
+  476  chmod -R 755 www/
+  477  ls -
+  478  ls -l
+  479  cd /var/www/
+  480  ls -l
+  481  cd /var/
+  482  chmod -R 755 www/
+  483  sudo chmod -R 755 www/
+  484  cd www/
+  485  ls -l
+  486  $host ="localhost"
+  487  $host = "localhost"
+  488  bash backup.sh 
+  489  ls
+  490  bash backup.sh 
+  491  ls -l
+  492  chmod 755 backup.sh 
+  493  ls -l
+  494  bash backup.sh 
+  495  ls
+  496  cd /var/log/apache2/
+  497  cat error.log
+  498  cd /var/
+  499  sudo chmod -R 755 www/
+  500  cd www/
+  501  ls -l
+  502  cd /var/log/apache2/
+  503  cat error.log
+  504  cd /var/www/
+  505  backup.sh
+  506  bash backup.sh 
+  507  ls
+  508  cd /var/log/apache2/
+  509  cat error.log
+  510  cd /var/www/
+  511  ls -l
+  512  cat /var/log/apache2/error.log
+  513  sudo chmod -R 755 www/
+  514  cd ..
+  515  cd www/
+  516  sudo chmod -R 777 backup.sh
+  517  ls -l
+  518  cat /var/log/apache2/error.log
+  519  cd ..
+  520  sudo chmod -R 777 www/
+  521  ls -l
+  522  cat /var/log/apache2/error.log
+  523  sudo chmod -R 777 www/
+  524  ls -l
+  525  cd www/
+  526  ls -l
+  527  bash log1.sh
+  528  cat /var/log/apache2/error.log
+  529  tail -f /var/log/mongodb/mongod.log
+  530  tail -f /var/opt/mssql/log/error.log
+  531  cd /var/opt/mssql/log/
+  532  cd /var/opt/mssql/
+  533  cd /var/
+  534  ls
+  535  cd log/
+  536  ls
+  537  cd mysql/
+  538  ls
+  539  cd ..
+  540  ls
+  541  cd elasticsearch/
+  542  sudo cd elasticsearch/
+  543  cd elasticsearch/
+  544* cd elasticsearch/
+  545  tail -f /var/log/mysql/error.log
+  546  tail -f /var/log/elasticsearch/error.log
+  547  sudo tail -f /var/log/elasticsearch/error.log
+  548  cd elasticsearch
+  549  cd ..
+  550  sudo chmod -R 777 www/
+  551  sudo service apache2 restart
+  552  sudo service apache2 status
+  553  cd www/
+  554  bash log2.sh 
+  555  cat /var/log/apache2/error.log
+  556  tail -f /var/log/mongodb/mongod.log
+  557  cat /var/log/apache2/error.log
+  558  cd /var/log/mysql/
+  559  ls -l
+  560  sudo chmod 644 error.log
+  561  ls -l
+  562  cd /var/log/mongo/
+  563  cd /var/log/mongodb/
+  564  ls
+  565  ls -l
+  566  cat /var/log/apache2/error.log
+  567  cd /var/www/
+  568  bash log2.sh 
+  569  tail -f /var/log/mongodb/mongod.log
+  570  tail -1 /var/log/mongodb/mongod.log
+  571  cat /var/log/apache2/error.log\
+  572  cd /var/log/mysql/
+  573  ls
+  574  sudo chmod 777 error.log
+  575  ls -l
+  576  cat /var/log/apache2/error.log\
+  577  cat /var/log/apache2/error.log
+  578  cd /var/log/mysql/
+  579  ls -l
+  580  cd ..
+  581  ls -l
+  582  sudo chmod 755 mysql/
+  583  ls -l
+  584  cd /var/log/mysql/
+  585  ls
+  586  cat error.log
+  587  cd ..
+  588  ls -l
+  589  sudo chown root:root /var/log/elasticsearch/
+  590  ls -l
+  591  cd elasticsearch/
+  592  ls -l
+  593  sudo chmod -R 777 elasticsearch/
+  594  ls -l
+  595  cd elasticsearch/
+  596  ls
+  597  cd /var/
+  598  sudo chmod -R 777 www/
+  599  CD www/
+  600  cd www/
+  601  ls -l
+  602  ls
+  603  bash mongo.sh
+  604  bash mongobk.sh
+  605  cat /var/log/apache2/error.log\
+  606  cat /var/log/apache2/error.log
+  607  curl -XPUT 'http://localhost:9200/_snapshot/my_backup' -H 'Content-Type: application/json' -d '{"type": "fs","settings": {"location": "/var/www/ESbackup","compress": true}}'
+  608  cd /etc/elasticsearch/
+  609  sudo nano /etc/elasticsearch/yml
+  610  sudo nano /etc/elasticsearch/elasticsearch.yml
+  611  curl -XPUT 'http://localhost:9200/_snapshot/my_backup' -H 'Content-Type: application/json' -d '{"type": "fs","settings": {"location": "/var/www/ESbackup","compress": true}}'
+  612  sudo nano /etc/elasticsearch/elasticsearch.yml
+  613  curl -XPUT 'http://localhost:9200/_snapshot/my_backup' -H 'Content-Type: application/json' -d '{"type": "fs","settings": {"location": "/var/www/ESbackup","compress": true}}'
+  614  sudo nano /etc/elasticsearch/elasticsearch.yml
+  615  curl -XGET 'localhost:9200/_snapshot/_all?pretty=true'
+  616  cat /var/log/apache2/error.log
+  617  sudo chmod -R 777 www/
+  618  cd ..
+  619  sudo chmod -R 777 www/
+  620  cd /var/log/apache2/
+  621  ls
+  622  sudo chmod 744 error.log
+  623  ls -l
+  624  sudo chmod 644 error.log
+  625  ls -l
+  626  cd ..
+  627  ls -l
+  628  sudo chmod 754 apache2/
+  629  cd ..
+  630  ls -l
+  631  cat /var/log/apache2/error.log
+  632  cd log/
+  633  ls
+  634  ls -l
+  635  sudo chmod 755 apache2/
+  636  cd apache2/
+  637  ls -l
+  638  sudo chmod 755 error.log
+  639  ls -l
+  640  sudo chmod 777 error.log
+  641  cat /var/log/apache2/error.log
+  642  cd /var/www/
+  643  cd ..
+  644  sudo chmod -R 777 www/
+  645  sudo nano /etc/apache2/sites-available/default
+  646  cd /etc/apache2/
+  647  ls
+  648  cd sites-available/
+  649  ls
+  650  sudo nano /etc/apache2/sites-available/000-default.conf
+  651  sudo nano /etc/apache2/sites-available/default.conf
+  652  sudo rm /etc/apache2/sites-available/default.conf
+  653  ls
+  654  sudo nano /etc/apache2/sites-available/default-ssl.conf
+  655  sudo service apache2 restart
+  656  sudo nano /var/www/.htaccess
+  657  cat /var/log/apache2/error.log
+  658  sudo nano /var/www/.htaccess
+  659  sudo rm /var/www/.htaccess
+  660  sudo nano /etc/apache2/sites-available/000-default.conf
+  661  cd /var/www/
+  662  history > history_for_print.txt

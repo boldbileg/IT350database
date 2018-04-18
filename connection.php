@@ -1,7 +1,7 @@
 <?php
 	$servername = "localhost";
-	$username = "phpmyadmin";
-	$password = "nb576010";
+	$username = "root";
+	$password = "nb576010746";
 	$dbname = "biotech";
 
 	// Create connection

@@ -12,6 +12,7 @@
   $uname = $_SESSION["username"];
   $qry = mysqli_query($conn, "SELECT Username FROM Users WHERE Username='$uname'");
   $row = mysqli_fetch_array($qry);
+  header("Cache-Control: max-age=2592000");
 ?>
 
 <html>
@@ -82,7 +83,19 @@
                     ?>
                    </p>
                    <div class="price">
-                     <s>$24K</s>$13.00
+                     <s>$24K</s>
+                     <?php
+                      $proName = "T7_256";
+
+                      $JSON = shell_exec('bash script.sh ' . $proName);
+
+                      $array = json_decode($JSON, true);
+                      $parse = $array["hits"]["hits"];
+
+                        foreach ($parse as $key => $value) {
+                          echo "$" . $value["_source"]["price"];
+                        }
+                      ?>
                    </div>
                  </figcaption><i class="ion-android-cart"></i>
                  <a href="pro1.php"></a>
@@ -114,7 +127,19 @@
                     ?>
                    </p>
                    <div class="price">
-                     <s>$1.00</s>$100.00
+                     <s>$1.00</s>
+                     <?php
+                      $proName = "T7_938";
+
+                      $JSON = shell_exec('bash script.sh ' . $proName);
+
+                      $array = json_decode($JSON, true);
+                      $parse = $array["hits"]["hits"];
+
+                        foreach ($parse as $key => $value) {
+                          echo "$" . $value["_source"]["price"];
+                        }
+                      ?>
                    </div>
                  </figcaption><i class="ion-android-cart"></i>
                  <a href="pro2.php"></a>
@@ -146,7 +171,19 @@
                     ?>
                    </p>
                    <div class="price">
-                     <s>$320.00</s>$9.00
+                     <s>$320.00</s>
+                     <?php
+                      $proName = "E14_715";
+
+                      $JSON = shell_exec('bash script.sh ' . $proName);
+
+                      $array = json_decode($JSON, true);
+                      $parse = $array["hits"]["hits"];
+
+                        foreach ($parse as $key => $value) {
+                          echo "$" . $value["_source"]["price"];
+                        }
+                      ?>
                    </div>
                  </figcaption><i class="ion-android-cart"></i>
                  <a href="pro3.php"></a>
@@ -178,7 +215,19 @@
                     ?>
                    </p>
                    <div class="price">
-                     <s>$100,000,000</s>$0.50
+                     <s>$100,000,000</s>
+                     <?php
+                      $proName = "P9_28";
+
+                      $JSON = shell_exec('bash script.sh ' . $proName);
+
+                      $array = json_decode($JSON, true);
+                      $parse = $array["hits"]["hits"];
+
+                        foreach ($parse as $key => $value) {
+                          echo "$" . $value["_source"]["price"];
+                        }
+                      ?>
                    </div>
                  </figcaption><i class="ion-android-cart"></i>
                  <a href="pro4.php"></a>
@@ -210,7 +259,19 @@
                     ?>
                   </p>
                    <div class="price">
-                     <s>$25.00</s>$25.00
+                     <s>$25.00</s>
+                     <?php
+                      $proName = "P9_2800";
+
+                      $JSON = shell_exec('bash script.sh ' . $proName);
+
+                      $array = json_decode($JSON, true);
+                      $parse = $array["hits"]["hits"];
+
+                        foreach ($parse as $key => $value) {
+                          echo "$" . $value["_source"]["price"];
+                        }
+                      ?>
                    </div>
                  </figcaption><i class="ion-android-cart"></i>
                  <a href="pro5.php"></a>

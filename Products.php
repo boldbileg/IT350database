@@ -50,7 +50,12 @@ $row = mysqli_fetch_array($qry);
                <!-- <a href="ProRev.php">Product Reviews</a><br /> -->
                <a href="Customers.php">Customers</a><br />
                <a href="DistLoc.php">Distribution Locations</a><br />
-               <!-- <a href="Orders.php">Orders</a><br /> -->
+               <!-- <a href="Orders.php">Orders</a><br /> --><br />
+
+               <b>DBA Functions</b><br />
+               <a href="Backup.php">Backup</a><br />
+               <a href="Status.php">Status</a><br />
+               <a href="Logs.php">Logs</a><br />
             </td>
             
             <td bgcolor = "#FFFFFF" width = "100" height = "200">
